@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background:rgb(231, 255, 231);
+   grid-area: h;  
+
+}
+
+main{
+   background: white;
+   grid-area: m;
+}
+
+aside{
+    background:rgb(231, 255, 231);
+     grid-area: a;  
+
+}
+
+footer{
+    background: rgb(248, 241, 227);
+    grid-area: f;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:  1fr 6fr ;    
+    grid-template-rows: 10vh 70vh 20vh;
+    background-color: antiquewhite;
+    grid-template-areas: "h h" "a m" "f f";
+
+}
+
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1%;
+    margin: 1%;
+    font-style:normal;
+    justify-content: center;
+}
+
+     
+
+span{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+
+
